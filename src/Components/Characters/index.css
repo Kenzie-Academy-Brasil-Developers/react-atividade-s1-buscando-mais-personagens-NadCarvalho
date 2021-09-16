@@ -1,0 +1,27 @@
+.my-characters {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90vw;
+}
+
+.my-characters h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.my-characters ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.my-characters ul li {
+    margin: 15px;
+}
