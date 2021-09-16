@@ -1,0 +1,23 @@
+.nav {
+    margin: 10px;
+}
+
+.nav button {
+    padding: 5px 25px;
+    margin: 0 10px;
+    border: 2px grey solid;
+    border-radius: 3px;
+    color: crimson;
+    background-color: transparent;
+    text-transform: lowercase;
+}
+
+.nav button.prev:hover {
+    background-color: lightcoral;
+    font-weight: bold;
+}
+
+.nav button.next:hover {
+    background-color: lightgreen;
+    font-weight: bold;
+}
